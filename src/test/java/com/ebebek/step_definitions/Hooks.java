@@ -16,7 +16,7 @@ public class Hooks {
 
     @Before
     public void setDriver() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("amazonHomePage"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("ebebekHomePage"));
     }
 
     @After
